@@ -125,66 +125,15 @@ Before proceeding, your project needs to be associated with an app.
 ✔  Yes, create it as a new app
 
 ?  App name:
-<<<<<<< HEAD
-=======
->  demo-lnd█
-   ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-✔  demo-lnd
 
-╭─ info ───────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│  Using shopify.app.toml for default values:                                  │
-│                                                                              │
-│    • Org:             Marmeto L&D                                            │
-│    • App:             demo-lnd                                               │
-│                                                                              │
-│   You can pass  `--reset`  to your command to reset your app configuration.  │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-
-## Building an extension
-
-```bash
-# Let's build our first function extension 🤩
-
-➜ npm run generate extension
-
-> generate
-> shopify app generate extension
-
-# Need to login if not logged in already
-To run this command, log in to Shopify.
-User verification code: XXX-QZDX
-👉 Press any key to open the login page on your browser
-Opened link to start the auth process: https://accounts.shopify.com/activate-with-code?device_code%5Buser_code%5D=RLZH-QZDX
-
-✔ Logged in.
-?  Which organization is this work for?
-✔  Marmeto L&D
-
-Before proceeding, your project needs to be associated with an app.
-
-?  Create this project as a new app on Shopify?
-✔  Yes, create it as a new app
-
-?  App name:
->>>>>>> 16d156ad5e8af37e56968bfaaf2b8f6046c019ec
 >  function-volume-discount
    ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 ✔  function-volume-discount
 
 ╭─ info ───────────────────────────────────────────────────────────────────────╮
 │                                                                              │
-<<<<<<< HEAD
-│  Using shopify.app.toml for default values:                                  │
-│                                                                              │
-│    • Org:             Marmeto                                                │
-│    • App:             function-volume-dicount                                │
-│    • Dev store:       arshiyas-development-store.myshopify.com               │
-│    • Update URLs:     Not yet configured                                     │
-│                                                                              │
-│   You can pass  `--reset`  to your command to reset your app configuration.  │
-=======
+                                                         
+│  
 │  Using shopify.app.toml for default values:                                  |                                 
 │                                                                              |                                 
 │    • Org:             Marmeto                                                |                                 
@@ -193,7 +142,7 @@ Before proceeding, your project needs to be associated with an app.
 │    • Update URLs:     Not yet configured                                     |                                 
 │                                                                              |                                 
 │   You can pass  `--reset`  to your command to reset your app configuration.  |
->>>>>>> 16d156ad5e8af37e56968bfaaf2b8f6046c019ec
+
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
 
@@ -238,28 +187,11 @@ Before proceeding, your project needs to be associated with an app.
    Online store                                                                                                           
       Theme app extension                                                                            
 
-<<<<<<< HEAD
-   Press ↑↓ arrows to select, enter to confirm.                                                                    
-=======
-   Press ↑↓ arrows to select, enter to confirm.
-   
-   # Select Discount **Discount orders - Function and hit enter**
-```                                                                           
-      Discount products - Function                                                                                        
-      Discount shipping - Function                                                                                        
-      Discounts allocator — Function                                                                                      
-      Fulfillment constraints - Function                                                                                  
-      Local pickup delivery option generators — Function                                                                  
-      Payment customization - Function                                                                                    
-      Pickup point delivery option generators — Function**                                                                  
-                                                                                                                          
-   Online store                                                                                                           
-      Theme app extension                                                                            
+                                                                    
 
    Press ↑↓ arrows to select, enter to confirm.
->>>>>>> 16d156ad5e8af37e56968bfaaf2b8f6046c019ec
-   
-   # Select Discount **Discount products - Function and hit enter**
+    
+# Select Discount **Discount products - Function and hit enter**
 ```
 
 ## Extension Only template
