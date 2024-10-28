@@ -1,0 +1,32 @@
+query RunInput($product_tags: [String!]) {
+  cart {
+    cost {
+      totalAmount {
+        amount
+        currencyCode
+      }
+    }
+    lines {
+      id
+      quantity
+      merchandise {
+        __typename
+        ... on ProductVariant {
+          id
+          product {
+            id
+            hasTags(tags: $product_tags){
+              hasTag
+              tag
+            }
+          }
+        }
+      }
+    }
+  }
+  discountNode {
+    metafield(namespace: "custom-tier-discount", key: "discount-values") {
+      value
+    }
+  }
+}
